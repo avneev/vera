@@ -1,0 +1,358 @@
+[
+    {
+        "id": 4,
+        "product_name": "FLAP CROSSBODY",
+        "image": "images/plp/filter/filter_5.jpg",
+        "product_color": "BLACK",
+        "price": "$188",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "product_name": "DRAWSTRING BACKPACK",
+        "image": "images/plp/filter/filter_6.jpg",
+        "product_color": "COBALT",
+        "price": "$290",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            },
+            {
+                "id": 3,
+                "name": "black"
+            },
+            {
+                "id": 4,
+                "name": "grey"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "product_name": "TOTE",
+        "image": "images/plp/filter/filter_7.jpg",
+        "product_color": "Pink",
+        "price": "$238",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            },
+            {
+                "id": 4,
+                "name": "black"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "product_name": "CAMPUS BACKPACK",
+        "image": "images/plp/filter/filter_8.jpg",
+        "product_color": "BLACK",
+        "price": "$218",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "product_name": "Triple Zip Hipster",
+        "image": "images/plp/filter/filter_9.jpg",
+        "product_color": "Pink swirals",
+        "price": "$216",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "product_name": "Triple Zip Hipster",
+        "image": "images/plp/filter/adv_afterfilter.jpg",
+        "product_color": "Pink swirals",
+        "price": "$58",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": true,
+        "width":290,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            }
+        ]
+    },{
+        "id": 11,
+        "product_name": "Triple Zip Hipster",
+        "image": "images/plp/filter/filter_10.jpg",
+        "product_color": "Pink swirals",
+        "price": "$58",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "product_name": "Triple Zip Hipster",
+        "image": "images/plp/filter/filter_11.jpg",
+        "product_color": "Pink swirals",
+        "price": "$58",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "product_name": "Triple Zip Hipster",
+        "image": "images/plp/filter/filter_12.jpg",
+        "product_color": "Pink swirals",
+        "price": "$58",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "product_name": "Triple Zip Hipster",
+        "image": "images/plp/filter/filter_12.jpg",
+        "product_color": "Pink swirals",
+        "price": "$58",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "product_name": "Triple Zip Hipster",
+        "image": "images/plp/filter/filter_13.jpg",
+        "product_color": "Pink swirals",
+        "price": "$58",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "product_name": "Triple Zip Hipster",
+        "image": "images/plp/filter/filter_14.jpg",
+        "product_color": "Pink swirals",
+        "price": "$58",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            }
+        ]
+    }
+]

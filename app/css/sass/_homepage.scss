@@ -1,0 +1,320 @@
+@import "compass/css3";
+.live-colorful {
+	p, .border-bottom {
+		margin: 1.8rem 1rem;
+		text-align: center;
+	}
+	span {
+		background-color: $white;
+		z-index: 1;
+		font-family: $EBGaramondMedium-font-family;
+		font-size: 14pt;
+		color: $base-font-color;
+		padding: 0 4rem;
+	}
+	.txt-color{
+		color: $chromeBlack;
+	}
+	.border-bottom {
+		width: 97%;
+		position: absolute;
+		left: 0;
+		top:-19px;
+		border-bottom: 1px solid $gray-border;
+		z-index: -1;
+	}
+}
+.moon-blooms {
+	padding: 4rem 0 3rem;
+	position: relative;
+}
+.threads-of-inspirations {
+	padding: 0 1rem 2rem;
+}
+.backbg {
+	position: absolute;
+	z-index: -1;
+	top: 4rem;
+	left: 0;
+	height: 1356px;
+}
+section.module.parallax {
+  height: 452px;
+  background-position: 50% 50%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	 h1 {
+	  color: rgba(255, 255, 255, 0.8);
+	  font-size: 48px;
+	  line-height: 451px;
+	  font-weight: 700;
+	  text-align: center;
+	  text-transform: uppercase;
+	  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	  margin: 0;
+	}
+	&-1 {
+		 background-image: url("../images/parellax-home/img1-test.png");
+	}
+	&-2 {
+		 background-image: url("../images/parellax-home/img2-test.png");
+	}
+	&-3 {
+		 background-image: url("../images/parellax-home/img3-test.png");
+	}
+}
+.featured-fan {
+	/*background-color: $gray-shade;*/
+	margin: 3rem 0 0;
+	text-align: center;
+	&__profile {
+		margin: 6rem 0 0 3rem;
+		img {
+			@include border-radius(100%);
+		}
+	}
+	&__desc {
+		margin: 2.5rem 0 0;
+		h2 {
+			text-transform: uppercase;
+			font-size: 1rem;
+		}
+		h1 {
+			font-size: 3.5rem;
+			border-bottom: 1px solid #ccc;
+			margin: 0 auto 1rem;
+			width: 60%;
+		}
+		p {
+			font-size: 1.1rem;
+			margin: 0 0.5rem;
+		}
+	}
+}
+.top-3-things {
+	background-color: $lighter-gray;
+	text-align: center;
+	h1 {
+		font-size: 1.3rem;
+	}
+	p {
+		font-size: 1.2rem;
+		font-style: italic;
+		padding: 0 3.5rem;
+		&:before {
+			content:"\2018\2018";
+		}
+		&:after {
+			content:"\2019\2019";
+		}
+	}
+	&__text {
+		background-color: $light-pink;
+		color:$white;
+		height: 18.5rem;
+		padding: 6rem 0 0 !important;
+		width: 23.8%;
+		span {
+			display: block;
+			font-size: 3rem;
+			padding: 0 2rem;
+		}
+	}
+	&--second {
+		margin-right: 0.9rem;
+	}
+	.large-3 {
+		padding-top: 3rem;
+	}
+}
+.vera-girls__text{
+	padding-top: 3rem;
+}
+.vera-girls {
+	margin: 4rem 0 0;
+	.large-3 {
+		border-right: 1px dotted $silver;
+		height: 12.7rem;
+	}
+	&__text {
+		p.vra-gl{
+			font-size: 1.3rem;
+			color: $base-font-color;
+			font-family: $BrandonMedium-font-family;
+			text-transform: $text-uppercase;
+			line-height: 2.8rem;
+			padding: 0rem 2rem 0;
+			text-align: right;
+			line-height: $base-line-height*2;
+		}
+		p.vra-gettin-txt {
+			font-size: 2.6rem;
+			font-family: $EBGaramondMedium-font-family;
+			text-transform: $text-uppercase;
+			line-height: 2.8rem;
+			padding: 0rem 5rem 0;
+			text-align: right;
+			line-height: $base-line-height*2;
+		}
+	}
+	&__product {
+		p {
+			display: inline-block;
+		}
+		&__profile-img {
+			width: 25px;
+			height: 25px;
+			@include border-radius(100%);
+			margin-right: 1rem;
+			vertical-align: top;
+		}
+		&__info {
+			&--name {
+				padding-left: 1rem;
+				display: inline-block;
+				vertical-align: middle;
+				width: 62%;
+				font-family: $EBGaramondMedium-font-family;
+				color: $base-font-color;
+				h1 {
+					font-size: 1.5rem;
+				}
+				span {
+					font-size: 1rem;
+					font-style: italic;
+				}
+			}
+
+
+			h2 {
+				font-size: 1.1rem;
+			}
+			&--bottom {
+				margin: .7rem 0 0;
+				font-family: $base-font-family;
+				color: $base-font-color;
+				text-transform: uppercase;
+			}
+		}
+	}
+	&__profile-info {
+		.pink-text {
+			font-size: 1.3rem;
+			font-family: arial;
+			color: #dc1065;
+		}
+		span {
+			font-size: 1rem;
+			font-family: arial;
+			display: block;
+			line-height: 1rem;
+			color: $base-font-color;
+			padding-top: 0.4rem;
+		}
+	}
+	&--last {
+		border-right:0;
+	}
+}
+.pink-text {
+	color:$color-pink;
+}
+.roleover{
+	border: 0.2rem solid $white;
+    color: $white;
+    font-weight: $base-font-weight-bold ;
+    padding: 0.7rem 2rem;
+    position: absolute;
+    cursor: pointer;
+    &:hover{
+    	background-color:$white;
+    	color: $chromeBlack;
+    }
+}
+.roleover-Bag{
+	.shop-now{
+		display:none;
+	}
+	.large-bag{
+		left: 9.7rem;
+    	top: 10rem;
+    	padding: 0.5rem 1.8rem;
+	}
+	.side-bag1{
+		font-size: 0.6rem;
+	    left: 31.2rem;
+	    padding: 0.2rem 0.8rem;
+	    top: 5rem;
+	}
+	.side-bag2{
+		font-size: 0.6rem;
+	    left: 31.4rem;
+	    padding: 0.2rem 0.8rem;
+	    top: 15rem;
+	}
+	&:hover{
+		.shop-now{
+			display:block;
+			border: 0.2rem solid $white;
+			font-weight: $base-font-weight-bold ;
+		    position: absolute;
+		    cursor: pointer;
+	    	background-color:$white;
+	    	color: $chromeBlack;
+		}
+    }
+}
+.shopRecoment-Pos{
+	left: 6.5rem;
+    top: 16rem;
+}
+.shopTogether-pos{
+	left: 10.7rem;
+    top: 16rem;
+}
+.bg {
+  background:url(../images/parellax-home/parellax-flower.png) no-repeat 0 0;
+  height: 864px;
+  width: 1280px;
+  background-size: cover;
+}
+.content-bg {
+	position: absolute;
+	top: 150px;
+	left: 50%;
+	transform: translate(-50%,-20%);
+}
+.parellax-row {
+	position: relative;
+	height: 416px;
+	overflow-y:auto;
+	background:url(../images/parellax-home/parellax1.jpg) no-repeat;
+}
+.parellax-row::-webkit-scrollbar { width: 0 !important }
+
+.auth-box {
+    margin-top: 90px;
+}
+
+.auth-message {
+	color: red;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%
+}
+
+.auth-button {
+    background-color: #000;
+    margin: 10px 135px;
+
+
+    &:hover {
+    	background-color: #000;
+    }
+}

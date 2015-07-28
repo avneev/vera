@@ -1,0 +1,1674 @@
+/*Color Set*/
+@font-face {
+  font-family: "BrandonGrotesque";
+  src: url(../fonts/brandon_re.ttf);
+}
+@font-face {
+  font-family: "BrandonGrotesqueMedium";
+  src: url(../fonts/BrandonGrotesque-Medium.ttf);
+}
+@font-face {
+  font-family: "BrandonGrotesqueBold";
+  src: url(../fonts/BrandonGrotesque-Bold.ttf);
+}
+@font-face {
+  font-family: "EBGaramond";
+  src: url(../fonts/EBGaramond.ttf);
+}
+/* line 18, sass/_core.scss */
+body {
+  font-family: "BrandonGrotesque";
+  font-size: 0.8rem;
+  color: #3B3B3B;
+}
+
+/* line 23, sass/_core.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "BrandonGrotesque";
+  margin: 0;
+}
+
+/* line 27, sass/_core.scss */
+.row {
+  max-width: 80rem;
+}
+
+/* line 30, sass/_core.scss */
+.small-row {
+  max-width: 63.8rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 35, sass/_core.scss */
+.full-width {
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* line 40, sass/_core.scss */
+ul li {
+  list-style-type: none;
+}
+
+/* line 43, sass/_core.scss */
+p {
+  line-height: 1.4rem;
+}
+
+/* line 47, sass/_core.scss */
+.no-padding {
+  padding: 0;
+}
+
+/* line 51, sass/_core.scss */
+.full-width {
+  max-width: 100%;
+}
+
+/* line 55, sass/_core.scss */
+.silver-border {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+/* line 58, sass/_core.scss */
+video {
+  cursor: pointer;
+}
+
+/* line 1, sass/_header.scss */
+.header-wrapper {
+  background-color: #F7F7F9;
+}
+
+/* line 4, sass/_header.scss */
+.header {
+  font-size: 95%;
+  padding: 0.5rem 0 0.2rem;
+  width: 95%;
+}
+/* line 8, sass/_header.scss */
+.header__left-column, .header__right-column {
+  text-transform: uppercase;
+  font-size: 85%;
+}
+/* line 13, sass/_header.scss */
+.header__right-column span {
+  color: #A5A5A5;
+}
+/* line 17, sass/_header.scss */
+.header__left-column {
+  padding-top: 0.25rem;
+  font-size: 104%;
+  color: #666666;
+}
+/* line 21, sass/_header.scss */
+.header__left-column span {
+  font-size: 77%;
+  font-family: "BrandonGrotesque";
+  color: #666666;
+}
+/* line 26, sass/_header.scss */
+.header__left-column .verticle-line {
+  font-size: 100%;
+  height: 2rem;
+  padding: .01rem .2rem 0;
+  vertical-align: top;
+}
+/* line 34, sass/_header.scss */
+.header__icon-list {
+  margin: -.2rem 0 0;
+  float: right;
+  padding-right: 0;
+}
+/* line 38, sass/_header.scss */
+.header__icon-list li {
+  display: inline-block;
+  padding: 0 3px;
+}
+/* line 44, sass/_header.scss */
+.header__right-text {
+  float: right;
+  padding: 0;
+  width: 42%;
+}
+/* line 49, sass/_header.scss */
+.header .text-pink {
+  font-family: "BrandonGrotesque";
+  color: #DC1065;
+  font-size: inherit;
+}
+/* line 53, sass/_header.scss */
+.header .text-pink.bold {
+  font-weight: 800;
+}
+
+/* line 59, sass/_header.scss */
+video {
+  width: 100%;
+}
+
+/* line 62, sass/_header.scss */
+.main-nav {
+  position: relative;
+  background-color: #FFFFFF;
+  z-index: 10;
+}
+/* line 66, sass/_header.scss */
+.main-nav .nav-items {
+  margin: 3.95rem 0 0;
+}
+/* line 68, sass/_header.scss */
+.main-nav .nav-items li {
+  display: inline-block;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  height: 3rem;
+}
+/* line 73, sass/_header.scss */
+.main-nav .nav-items li a {
+  color: #3B3B3B;
+}
+/* line 78, sass/_header.scss */
+.main-nav .left-nav {
+  width: 30%;
+  margin-left: 3rem;
+  position: static;
+}
+/* line 83, sass/_header.scss */
+.main-nav .right-nav {
+  float: left !important;
+  margin-left: -1%;
+  width: 24%;
+  position: static;
+}
+/* line 88, sass/_header.scss */
+.main-nav .right-nav .nav-items {
+  margin-left: 2rem;
+}
+/* line 90, sass/_header.scss */
+.main-nav .right-nav .nav-items li {
+  margin-right: 3.5rem;
+}
+/* line 92, sass/_header.scss */
+.main-nav .right-nav .nav-items li:last-child {
+  margin-right: 0;
+}
+/* line 98, sass/_header.scss */
+.main-nav .menu-arrow {
+  position: absolute;
+}
+@keyframes pulse_animation {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.08);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1);
+  }
+  70% {
+    -transform: scale(1.05);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* line 115, sass/_header.scss */
+.main-nav .sticky-logo {
+  display: none;
+}
+/* line 118, sass/_header.scss */
+.main-nav.stuck {
+  position: fixed;
+  top: -5rem;
+  left: 50%;
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 600ms;
+  transition-timing-function: cubic-bezier(0, 1, 1, 1);
+  transform: translateX(-50%);
+  border-bottom: 1px solid #CCCCCC;
+}
+/* line 128, sass/_header.scss */
+.main-nav.stuck.test {
+  top: 0rem !important;
+  opacity: 1;
+}
+/* line 132, sass/_header.scss */
+.main-nav.stuck .fixed-header-icons, .main-nav.stuck .menu-small {
+  display: block;
+}
+/* line 135, sass/_header.scss */
+.main-nav.stuck .menu-small {
+  margin: 0.5rem 0 0;
+}
+/* line 138, sass/_header.scss */
+.main-nav.stuck .nav-items {
+  margin: 1rem 0 0 !important;
+  opacity: 1;
+  transition: margin 2s;
+}
+/* line 142, sass/_header.scss */
+.main-nav.stuck .nav-items li {
+  font-size: 1rem;
+}
+/* line 145, sass/_header.scss */
+.main-nav.stuck .nav-items .pulse2 {
+  animation-name: 'pulse_animation';
+  animation-duration: 1000ms;
+  transform-origin: 70% 70%;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+/* line 152, sass/_header.scss */
+.main-nav.stuck .nav-items.stuck-shown {
+  height: 23rem;
+}
+/* line 156, sass/_header.scss */
+.main-nav.stuck .outlet-shown {
+  display: none !important;
+}
+/* line 159, sass/_header.scss */
+.main-nav.stuck .right-nav .outlet-shown {
+  display: inline-block !important;
+}
+/* line 162, sass/_header.scss */
+.main-nav.stuck .sticky-logo {
+  display: block;
+  opacity: 1;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* line 169, sass/_header.scss */
+.main-nav.stuck .img-margin {
+  transition: margin-top 2s;
+  margin-top: 0.402rem;
+}
+/* line 173, sass/_header.scss */
+.main-nav.stuck .sticky-specific {
+  height: 5.68rem;
+  width: 25.8rem;
+  display: none;
+  opacity: 0;
+}
+/* line 178, sass/_header.scss */
+.main-nav.stuck .sub-menu {
+  top: 3rem;
+}
+/* line 181, sass/_header.scss */
+.main-nav.stuck .right-nav .nav-items, .main-nav.stuck .left-nav .nav-items, .main-nav.stuck .search {
+  border-bottom: 0;
+  display: none;
+}
+/* line 185, sass/_header.scss */
+.main-nav.stuck .right-nav, .main-nav.stuck .left-nav {
+  border-bottom: 0;
+}
+/* line 188, sass/_header.scss */
+.main-nav.stuck .right-nav {
+  width: 33%;
+}
+/* line 191, sass/_header.scss */
+.main-nav.stuck .menu-arrow {
+  -webkit-animation-name: 'pulse_animation';
+  -webkit-animation-duration: 1000ms;
+  -webkit-transform-origin: 70% 70%;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+/* line 198, sass/_header.scss */
+.main-nav.stuck .search {
+  margin-top: 1rem;
+  border-bottom: 0;
+}
+/* line 202, sass/_header.scss */
+.main-nav.stuck .vera-mid-logo {
+  position: absolute;
+  height: 4.2rem;
+}
+/* line 209, sass/_header.scss */
+.main-nav .sub-menu {
+  left: 0;
+  position: absolute;
+  top: 4rem;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  height: 450px;
+  /* approximate max height */
+  opacity: 1;
+  transition-property: all;
+  transition-duration: 600ms;
+  transition-timing-function: cubic-bezier(0, 1, 1, 1);
+  background-color: #FFFFFF;
+  /*margin-top: 2.5rem;*/
+  padding-top: 2rem;
+}
+/* line 224, sass/_header.scss */
+.main-nav .sub-menu .sub-menu-container {
+  padding: 2.5rem 0;
+}
+/* line 227, sass/_header.scss */
+.main-nav .sub-menu.submenu-hidden {
+  opacity: 0;
+  height: 0;
+  padding-top: 0;
+}
+/* line 232, sass/_header.scss */
+.main-nav .sub-menu .sub-menu-nav {
+  margin-bottom: 1rem;
+}
+/* line 234, sass/_header.scss */
+.main-nav .sub-menu .sub-menu-nav li {
+  color: #555555;
+  font-size: 0.75rem;
+  line-height: 1.75rem;
+  height: 1.75rem;
+  text-transform: uppercase;
+}
+/* line 240, sass/_header.scss */
+.main-nav .sub-menu .sub-menu-nav li:first-child {
+  font-weight: 600;
+}
+/* line 245, sass/_header.scss */
+.main-nav .sub-menu .sub-menu-nav-copy {
+  margin-bottom: 1rem;
+}
+/* line 247, sass/_header.scss */
+.main-nav .sub-menu .sub-menu-nav-copy li {
+  color: #555555;
+  font-size: 0.75rem;
+  line-height: 1.75rem;
+  height: 1.75rem;
+  text-transform: uppercase;
+}
+
+/* line 258, sass/_header.scss */
+.fixed-header-icons {
+  float: right;
+  margin: 0.8rem 2rem 1rem 0;
+}
+/* line 261, sass/_header.scss */
+.fixed-header-icons li {
+  display: inline;
+  padding: 0 3px;
+}
+
+/* line 267, sass/_header.scss */
+.fixed-header-icons, .menu-small {
+  display: none;
+}
+
+/* line 270, sass/_header.scss */
+.search {
+  position: relative;
+  float: left !important;
+  /*margin: 3.8rem 0 0;*/
+  margin: 3.53rem 0 0;
+  padding-bottom: 0.3rem;
+  width: 6%;
+}
+
+/* line 278, sass/_header.scss */
+.searchbox {
+  position: relative;
+  width: 100%;
+}
+
+/* line 282, sass/_header.scss */
+.searchbox-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  outline: 0;
+  width: 80%;
+  height: 50px;
+  margin: 0;
+  padding-left: 20px;
+  font-size: 20px;
+  color: red;
+  opacity: 0;
+  font-size: 1.15rem !important;
+}
+/* line 296, sass/_header.scss */
+.searchbox-input::-webkit-input-placeholder {
+  font-size: 0.875rem;
+}
+/* line 300, sass/_header.scss */
+.searchbox-input:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 0.875rem;
+}
+/* line 304, sass/_header.scss */
+.searchbox-input::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 0.875rem;
+}
+/* line 308, sass/_header.scss */
+.searchbox-input:-ms-input-placeholder {
+  font-size: 0.875rem;
+}
+
+/* line 312, sass/_header.scss */
+.searchbox-open .searchbox-input {
+  opacity: 1;
+}
+
+/* line 315, sass/_header.scss */
+.searchbox-icon,
+.searchbox-submit {
+  display: block;
+  position: absolute;
+  right: 7px;
+  top: 6px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+/* line 327, sass/_header.scss */
+.searchbox {
+  position: relative;
+  min-width: 50px;
+  width: 0%;
+  height: 50px;
+  overflow: visible;
+  -webkit-transition: width 1s;
+  -moz-transition: width 1s;
+  -ms-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+/*......*/
+/*......*/
+/*......*/
+/* line 343, sass/_header.scss */
+.searchbox-open {
+  width: 49%;
+  clear: both;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 349, sass/_header.scss */
+.search-expanded {
+  width: 100%;
+  text-align: center;
+  border-bottom: 0;
+  margin-bottom: 1.9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1rem;
+}
+
+/* line 358, sass/_header.scss */
+#close-search {
+  cursor: pointer;
+  position: absolute;
+  right: -30px;
+  top: 10px;
+}
+
+/* line 364, sass/_header.scss */
+.search-logo {
+  display: none;
+}
+
+/* line 368, sass/_header.scss */
+.fixed-header-search-expanded .sticky-logo {
+  display: none !important;
+}
+
+/* line 373, sass/_header.scss */
+.outlet .header-wrapper {
+  background-color: #FE7F2E;
+  color: #FFFFFF;
+}
+/* line 378, sass/_header.scss */
+.outlet .header__left-column {
+  color: #FFFFFF;
+}
+/* line 382, sass/_header.scss */
+.outlet .header__right-column span {
+  color: #FFFFFF;
+}
+/* line 387, sass/_header.scss */
+.outlet .text-pink {
+  color: #F5D666;
+}
+/* line 390, sass/_header.scss */
+.outlet .outlet-shown {
+  display: inline-block;
+}
+/* line 393, sass/_header.scss */
+.outlet .outlet-hidden {
+  display: none;
+}
+
+/* line 397, sass/_header.scss */
+.outlet-shown {
+  display: none;
+}
+
+/* line 401, sass/_header.scss */
+a.main-nav-list.active {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* line 405, sass/_header.scss */
+.nav-bread-crumb {
+  display: inline-block;
+  margin-left: 2rem;
+  font-size: 0.9rem;
+}
+/* line 409, sass/_header.scss */
+.nav-bread-crumb a {
+  color: #3B3B3B;
+}
+
+/* line 413, sass/_header.scss */
+.search-panel {
+  background: none repeat scroll 0 0 #ffffff;
+  height: 0;
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  -webkit-transition: height 1s;
+  -moz-transition: height 1s;
+  -ms-transition: height 1s;
+  -o-transition: height 1s;
+  transition: height 1s;
+  width: 102% !important;
+}
+/* line 426, sass/_header.scss */
+.search-panel.show {
+  display: block;
+  height: auto;
+}
+/* line 432, sass/_header.scss */
+.search-panel .search-hint {
+  left: 25%;
+  position: relative;
+  text-align: left;
+}
+/* line 436, sass/_header.scss */
+.search-panel .search-hint a {
+  color: #000000;
+}
+/* line 440, sass/_header.scss */
+.search-panel .search-suggestion {
+  padding-bottom: 1rem;
+}
+/* line 442, sass/_header.scss */
+.search-panel .search-suggestion h2 {
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #AAAAAA;
+}
+/* line 449, sass/_header.scss */
+.search-panel .search-suggestion .name, .search-panel .search-suggestion .price {
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+/* line 455, sass/_header.scss */
+.search-panel .search-suggestion .name {
+  font-family: "EBGaramond", serif;
+}
+
+/* line 1, sass/_footer.scss */
+.footer {
+  background-image: url("../images/bg-footer.jpg");
+  background-repeat: no-repeat;
+}
+/* line 4, sass/_footer.scss */
+.footer .col-md-12 {
+  width: 100%;
+  padding: 18rem 3rem 0;
+}
+/* line 8, sass/_footer.scss */
+.footer .pull-left {
+  float: left !important;
+}
+/* line 11, sass/_footer.scss */
+.footer .footer-column {
+  padding: 0 1rem;
+  width: 18%;
+}
+/* line 15, sass/_footer.scss */
+.footer .indent-margin {
+  margin: 0;
+}
+/* line 19, sass/_footer.scss */
+.footer .child-li li {
+  font-family: "BrandonGrotesque";
+  color: #3B3B3B;
+  cursor: pointer;
+  font-size: 0.65rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.7rem;
+  /*color:$color-gray-dark;*/
+}
+/* line 29, sass/_footer.scss */
+.footer .font-footer-bold {
+  font-family: "BrandonGrotesque";
+  font-size: 0.68rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+/* line 35, sass/_footer.scss */
+.footer .padding-bottom-15 {
+  padding-bottom: 1.5rem;
+}
+/* line 38, sass/_footer.scss */
+.footer .footer-bar {
+  border-top: 0.15rem solid #CCCCCC;
+  padding-top: 3rem;
+}
+/* line 42, sass/_footer.scss */
+.footer .footer-terms_condition {
+  font-family: "BrandonGrotesque";
+  color: #3B3B3B;
+  font-size: 0.65rem;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  padding-bottom: 1.1rem !important;
+  padding-top: 3rem !important;
+}
+
+/* line 3, sass/_homepage.scss */
+.live-colorful p, .live-colorful .border-bottom {
+  margin: 1.8rem 1rem;
+  text-align: center;
+}
+/* line 7, sass/_homepage.scss */
+.live-colorful span {
+  background-color: #FFFFFF;
+  z-index: 1;
+  font-family: "EBGaramond";
+  font-size: 14pt;
+  color: #3B3B3B;
+  padding: 0 4rem;
+}
+/* line 15, sass/_homepage.scss */
+.live-colorful .txt-color {
+  color: #3a3845;
+}
+/* line 18, sass/_homepage.scss */
+.live-colorful .border-bottom {
+  width: 97%;
+  position: absolute;
+  left: 0;
+  top: -19px;
+  border-bottom: 1px solid #DCDCDC;
+  z-index: -1;
+}
+
+/* line 27, sass/_homepage.scss */
+.moon-blooms {
+  padding: 4rem 0 3rem;
+  position: relative;
+}
+
+/* line 31, sass/_homepage.scss */
+.threads-of-inspirations {
+  padding: 0 1rem 2rem;
+}
+
+/* line 34, sass/_homepage.scss */
+.backbg {
+  position: absolute;
+  z-index: -1;
+  top: 4rem;
+  left: 0;
+  height: 1356px;
+}
+
+/* line 41, sass/_homepage.scss */
+section.module.parallax {
+  height: 452px;
+  background-position: 50% 50%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 50, sass/_homepage.scss */
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 451px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+/* line 60, sass/_homepage.scss */
+section.module.parallax-1 {
+  background-image: url("../images/parellax-home/img1-test.png");
+}
+/* line 63, sass/_homepage.scss */
+section.module.parallax-2 {
+  background-image: url("../images/parellax-home/img2-test.png");
+}
+/* line 66, sass/_homepage.scss */
+section.module.parallax-3 {
+  background-image: url("../images/parellax-home/img3-test.png");
+}
+
+/* line 70, sass/_homepage.scss */
+.featured-fan {
+  /*background-color: $gray-shade;*/
+  margin: 3rem 0 0;
+  text-align: center;
+}
+/* line 74, sass/_homepage.scss */
+.featured-fan__profile {
+  margin: 6rem 0 0 3rem;
+}
+/* line 76, sass/_homepage.scss */
+.featured-fan__profile img {
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 80, sass/_homepage.scss */
+.featured-fan__desc {
+  margin: 2.5rem 0 0;
+}
+/* line 82, sass/_homepage.scss */
+.featured-fan__desc h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+/* line 86, sass/_homepage.scss */
+.featured-fan__desc h1 {
+  font-size: 3.5rem;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto 1rem;
+  width: 60%;
+}
+/* line 92, sass/_homepage.scss */
+.featured-fan__desc p {
+  font-size: 1.1rem;
+  margin: 0 0.5rem;
+}
+
+/* line 98, sass/_homepage.scss */
+.top-3-things {
+  background-color: #F9F9F7;
+  text-align: center;
+}
+/* line 101, sass/_homepage.scss */
+.top-3-things h1 {
+  font-size: 1.3rem;
+}
+/* line 104, sass/_homepage.scss */
+.top-3-things p {
+  font-size: 1.2rem;
+  font-style: italic;
+  padding: 0 3.5rem;
+}
+/* line 108, sass/_homepage.scss */
+.top-3-things p:before {
+  content: "\2018\2018";
+}
+/* line 111, sass/_homepage.scss */
+.top-3-things p:after {
+  content: "\2019\2019";
+}
+/* line 115, sass/_homepage.scss */
+.top-3-things__text {
+  background-color: #F15759;
+  color: #FFFFFF;
+  height: 18.5rem;
+  padding: 6rem 0 0 !important;
+  width: 23.8%;
+}
+/* line 121, sass/_homepage.scss */
+.top-3-things__text span {
+  display: block;
+  font-size: 3rem;
+  padding: 0 2rem;
+}
+/* line 127, sass/_homepage.scss */
+.top-3-things--second {
+  margin-right: 0.9rem;
+}
+/* line 130, sass/_homepage.scss */
+.top-3-things .large-3 {
+  padding-top: 3rem;
+}
+
+/* line 134, sass/_homepage.scss */
+.vera-girls__text {
+  padding-top: 3rem;
+}
+
+/* line 137, sass/_homepage.scss */
+.vera-girls {
+  margin: 4rem 0 0;
+}
+/* line 139, sass/_homepage.scss */
+.vera-girls .large-3 {
+  border-right: 1px dotted #CCCCCC;
+  height: 12.7rem;
+}
+/* line 144, sass/_homepage.scss */
+.vera-girls__text p.vra-gl {
+  font-size: 1.3rem;
+  color: #3B3B3B;
+  font-family: "BrandonGrotesqueMedium";
+  text-transform: uppercase;
+  line-height: 2.8rem;
+  padding: 0rem 2rem 0;
+  text-align: right;
+  line-height: 2.8rem;
+}
+/* line 154, sass/_homepage.scss */
+.vera-girls__text p.vra-gettin-txt {
+  font-size: 2.6rem;
+  font-family: "EBGaramond";
+  text-transform: uppercase;
+  line-height: 2.8rem;
+  padding: 0rem 5rem 0;
+  text-align: right;
+  line-height: 2.8rem;
+}
+/* line 165, sass/_homepage.scss */
+.vera-girls__product p {
+  display: inline-block;
+}
+/* line 168, sass/_homepage.scss */
+.vera-girls__product__profile-img {
+  width: 25px;
+  height: 25px;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  margin-right: 1rem;
+  vertical-align: top;
+}
+/* line 176, sass/_homepage.scss */
+.vera-girls__product__info--name {
+  padding-left: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+  width: 62%;
+  font-family: "EBGaramond";
+  color: #3B3B3B;
+}
+/* line 183, sass/_homepage.scss */
+.vera-girls__product__info--name h1 {
+  font-size: 1.5rem;
+}
+/* line 186, sass/_homepage.scss */
+.vera-girls__product__info--name span {
+  font-size: 1rem;
+  font-style: italic;
+}
+/* line 193, sass/_homepage.scss */
+.vera-girls__product__info h2 {
+  font-size: 1.1rem;
+}
+/* line 196, sass/_homepage.scss */
+.vera-girls__product__info--bottom {
+  margin: .7rem 0 0;
+  font-family: "BrandonGrotesque";
+  color: #3B3B3B;
+  text-transform: uppercase;
+}
+/* line 205, sass/_homepage.scss */
+.vera-girls__profile-info .pink-text {
+  font-size: 1.3rem;
+  font-family: arial;
+  color: #dc1065;
+}
+/* line 210, sass/_homepage.scss */
+.vera-girls__profile-info span {
+  font-size: 1rem;
+  font-family: arial;
+  display: block;
+  line-height: 1rem;
+  color: #3B3B3B;
+  padding-top: 0.4rem;
+}
+/* line 219, sass/_homepage.scss */
+.vera-girls--last {
+  border-right: 0;
+}
+
+/* line 223, sass/_homepage.scss */
+.pink-text {
+  color: #DD1264;
+}
+
+/* line 226, sass/_homepage.scss */
+.roleover {
+  border: 0.2rem solid #FFFFFF;
+  color: #FFFFFF;
+  font-weight: 800;
+  padding: 0.7rem 2rem;
+  position: absolute;
+  cursor: pointer;
+}
+/* line 233, sass/_homepage.scss */
+.roleover:hover {
+  background-color: #FFFFFF;
+  color: #3a3845;
+}
+
+/* line 239, sass/_homepage.scss */
+.roleover-Bag .shop-now {
+  display: none;
+}
+/* line 242, sass/_homepage.scss */
+.roleover-Bag .large-bag {
+  left: 9.7rem;
+  top: 10rem;
+  padding: 0.5rem 1.8rem;
+}
+/* line 247, sass/_homepage.scss */
+.roleover-Bag .side-bag1 {
+  font-size: 0.6rem;
+  left: 31.2rem;
+  padding: 0.2rem 0.8rem;
+  top: 5rem;
+}
+/* line 253, sass/_homepage.scss */
+.roleover-Bag .side-bag2 {
+  font-size: 0.6rem;
+  left: 31.4rem;
+  padding: 0.2rem 0.8rem;
+  top: 15rem;
+}
+/* line 260, sass/_homepage.scss */
+.roleover-Bag:hover .shop-now {
+  display: block;
+  border: 0.2rem solid #FFFFFF;
+  font-weight: 800;
+  position: absolute;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #3a3845;
+}
+
+/* line 271, sass/_homepage.scss */
+.shopRecoment-Pos {
+  left: 6.5rem;
+  top: 16rem;
+}
+
+/* line 275, sass/_homepage.scss */
+.shopTogether-pos {
+  left: 10.7rem;
+  top: 16rem;
+}
+
+/* line 279, sass/_homepage.scss */
+.bg {
+  background: url(../images/parellax-home/parellax-flower.png) no-repeat 0 0;
+  height: 864px;
+  width: 1280px;
+  background-size: cover;
+}
+
+/* line 285, sass/_homepage.scss */
+.content-bg {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+/* line 291, sass/_homepage.scss */
+.parellax-row {
+  position: relative;
+  height: 416px;
+  overflow-y: auto;
+  background: url(../images/parellax-home/parellax1.jpg) no-repeat;
+}
+
+/* line 297, sass/_homepage.scss */
+.parellax-row::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+/* line 299, sass/_homepage.scss */
+.auth-box {
+  margin-top: 90px;
+}
+
+/* line 303, sass/_homepage.scss */
+.auth-message {
+  color: red;
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 312, sass/_homepage.scss */
+.auth-button {
+  background-color: #000;
+  margin: 10px 135px;
+}
+/* line 317, sass/_homepage.scss */
+.auth-button:hover {
+  background-color: #000;
+}
+
+/* line 1, sass/_product_listing.scss */
+.filter-head {
+  background-color: #69D8C7;
+}
+/* line 3, sass/_product_listing.scss */
+.filter-head .filter-nav {
+  margin-bottom: 0;
+}
+/* line 5, sass/_product_listing.scss */
+.filter-head .filter-nav li {
+  display: inline-block;
+  width: 8rem;
+  text-transform: uppercase;
+  font-size: .9rem;
+  line-height: 2.75rem;
+}
+/* line 11, sass/_product_listing.scss */
+.filter-head .filter-nav li a {
+  color: #555555;
+}
+/* line 14, sass/_product_listing.scss */
+.filter-head .filter-nav li.active-category {
+  background: url("../images/plp/tab_arrow.png") no-repeat scroll center bottom;
+}
+/* line 19, sass/_product_listing.scss */
+.filter-head .filter-hint {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: .75rem;
+  line-height: 2.75rem;
+  margin-bottom: 0;
+}
+
+/* line 27, sass/_product_listing.scss */
+.filter-body {
+  background-color: #F1F1F1;
+  padding: 1.5rem 0;
+}
+/* line 30, sass/_product_listing.scss */
+.filter-body .category-image {
+  margin-right: .5rem;
+  cursor: pointer;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+}
+/* line 35, sass/_product_listing.scss */
+.filter-body .category-image.active {
+  border: 2px solid #69D8C7;
+}
+/* line 39, sass/_product_listing.scss */
+.filter-body .added-filter-container {
+  min-height: 45px;
+  display: block !important;
+  margin-left: 4.5%;
+}
+/* line 44, sass/_product_listing.scss */
+.filter-body .added-filter-container.ng-hide {
+  opacity: 0;
+}
+/* line 47, sass/_product_listing.scss */
+.filter-body .added-filter {
+  background-color: #CCCCCC;
+  float: left;
+  font-size: 0.75rem;
+  margin: 1rem 0.5rem 0 0;
+  padding: 2px 5px;
+  text-transform: uppercase;
+  width: 8rem;
+  cursor: pointer;
+}
+/* line 57, sass/_product_listing.scss */
+.filter-body .remove-filter {
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+/* line 64, sass/_product_listing.scss */
+.product-listing .center-align {
+  text-align: center;
+}
+/* line 69, sass/_product_listing.scss */
+.product-listing .breadcrums span a {
+  color: #A5A5A5;
+}
+/* line 71, sass/_product_listing.scss */
+.product-listing .breadcrums span a:hover {
+  color: #A5A5A5;
+}
+/* line 77, sass/_product_listing.scss */
+.product-listing .selected1 {
+  color: #666666;
+}
+/* line 80, sass/_product_listing.scss */
+.product-listing .new-tag {
+  position: absolute;
+  color: #FFFFFF;
+  background-color: #3a3845;
+  padding: 0.3rem 0.7rem;
+  top: 1rem;
+  left: 1.75rem;
+  font-weight: bold;
+}
+/* line 89, sass/_product_listing.scss */
+.product-listing .left-align {
+  text-align: left;
+}
+/* line 92, sass/_product_listing.scss */
+.product-listing .padding-bottom-5, .product-listing .product-detail .product-description .product-share, .product-detail .product-description .product-listing .product-share {
+  padding-bottom: 0.5rem;
+}
+/* line 95, sass/_product_listing.scss */
+.product-listing .padding-bottom-4 {
+  padding-bottom: 0.4rem;
+}
+/* line 102, sass/_product_listing.scss */
+.product-listing .font-size-65 {
+  font-size: 0.65rem;
+}
+/* line 105, sass/_product_listing.scss */
+.product-listing .product-detail {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+/* line 108, sass/_product_listing.scss */
+.product-listing .product-detail a {
+  color: #3B3B3B;
+  font-family: "EBGaramond", serif;
+}
+/* line 113, sass/_product_listing.scss */
+.product-listing .text-transform-upper {
+  text-transform: uppercase;
+}
+/* line 116, sass/_product_listing.scss */
+.product-listing .padding-productBlock {
+  padding: 2rem 0;
+}
+/* line 118, sass/_product_listing.scss */
+.product-listing .padding-productBlock:hover {
+  cursor: pointer;
+}
+/* line 120, sass/_product_listing.scss */
+.product-listing .padding-productBlock:hover .quick-view-btn {
+  opacity: 1;
+}
+/* line 124, sass/_product_listing.scss */
+.product-listing .padding-productBlock .image-fixed-dimention {
+  height: 235px;
+  margin: 0 auto;
+  width: 235px;
+}
+/* line 130, sass/_product_listing.scss */
+.product-listing .product-rating {
+  position: absolute;
+  left: 7rem;
+  opacity: 0;
+}
+
+/* line 136, sass/_product_listing.scss */
+.product-listingHeader {
+  padding: 1rem;
+  margin: 1rem 0;
+  letter-spacing: 0.02rem;
+  font-size: 0.7rem;
+}
+/* line 141, sass/_product_listing.scss */
+.product-listingHeader .pull-left {
+  float: left !important;
+}
+/* line 144, sass/_product_listing.scss */
+.product-listingHeader .pull-right {
+  float: right !important;
+}
+/* line 147, sass/_product_listing.scss */
+.product-listingHeader span {
+  vertical-align: middle;
+}
+/* line 150, sass/_product_listing.scss */
+.product-listingHeader .selected-filter {
+  color: #CCCCCC;
+  padding-left: 1rem;
+}
+/* line 156, sass/_product_listing.scss */
+.product-listingHeader .filter-sort span {
+  color: #CCCCCC;
+  padding-left: 1rem;
+}
+/* line 159, sass/_product_listing.scss */
+.product-listingHeader .filter-sort span a {
+  color: #CCCCCC;
+}
+/* line 163, sass/_product_listing.scss */
+.product-listingHeader .filter-sort .selected {
+  color: #555555 !important;
+}
+
+/* line 170, sass/_product_listing.scss */
+.quick-view-row .product-details-container {
+  padding: 0 2rem;
+}
+/* line 173, sass/_product_listing.scss */
+.quick-view-row .product-details {
+  width: 80%;
+}
+/* line 176, sass/_product_listing.scss */
+.quick-view-row .quick-view-btn {
+  opacity: 0;
+  margin-top: 1rem;
+  width: 20%;
+}
+
+/* line 182, sass/_product_listing.scss */
+.quick-view-container {
+  background-color: #F7F7F9;
+  padding: 2rem 4rem;
+  margin: 2.5rem 0;
+}
+/* line 186, sass/_product_listing.scss */
+.quick-view-container .name {
+  font-size: 3.25rem;
+  color: #242424;
+  font-family: "EBGaramond", serif;
+}
+/* line 191, sass/_product_listing.scss */
+.quick-view-container .sku {
+  font-size: .8rem;
+  color: #AAAAAA;
+  margin-bottom: .5rem;
+}
+/* line 196, sass/_product_listing.scss */
+.quick-view-container .price {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #242424;
+  margin: 2rem 0 3rem;
+}
+/* line 202, sass/_product_listing.scss */
+.quick-view-container .add-to-cart {
+  margin: 0 1rem;
+}
+/* line 205, sass/_product_listing.scss */
+.quick-view-container .pink-text {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+/* line 210, sass/_product_listing.scss */
+.quick-view-container .thumb-imgs {
+  margin-left: 0rem;
+}
+/* line 212, sass/_product_listing.scss */
+.quick-view-container .thumb-imgs .thumb-img {
+  display: inline-block;
+  margin-right: .5rem;
+}
+/* line 215, sass/_product_listing.scss */
+.quick-view-container .thumb-imgs .thumb-img p {
+  color: #AAAAAA;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 223, sass/_product_listing.scss */
+.quick-view-container .close-quick-view {
+  position: absolute;
+  right: 2rem;
+  top: .5rem;
+  font-size: 3rem;
+  color: #AAAAAA;
+  cursor: pointer;
+}
+/* line 231, sass/_product_listing.scss */
+.quick-view-container .arrow-quick-view {
+  position: absolute;
+  top: -28px;
+  transition: left 0.5s ease;
+}
+/* line 237, sass/_product_listing.scss */
+.quick-view-container .orbit-bullets li {
+  cursor: pointer;
+}
+
+/* line 243, sass/_product_listing.scss */
+.marg-left {
+  margin-left: 1.75rem;
+}
+
+/* line 246, sass/_product_listing.scss */
+.marg-top {
+  margin-top: 1rem;
+}
+
+/* line 249, sass/_product_listing.scss */
+.parallax-plp-container {
+  position: relative;
+}
+/* line 251, sass/_product_listing.scss */
+.parallax-plp-container .backbg {
+  height: 1299px;
+  top: 0;
+}
+/* line 255, sass/_product_listing.scss */
+.parallax-plp-container section.module.parallax {
+  height: 433px;
+}
+/* line 257, sass/_product_listing.scss */
+.parallax-plp-container section.module.parallax-4 {
+  background-image: url("../images/parellax-plp/img1.png");
+}
+/* line 260, sass/_product_listing.scss */
+.parallax-plp-container section.module.parallax-5 {
+  background-image: url("../images/parellax-plp/img2.png");
+}
+/* line 263, sass/_product_listing.scss */
+.parallax-plp-container section.module.parallax-6 {
+  background-image: url("../images/parellax-plp/img3.png");
+}
+
+/* line 269, sass/_product_listing.scss */
+.parellax-row-plp {
+  height: 416px;
+  background: url(../images/parellax-plp/img1.png) no-repeat;
+  position: relative;
+  overflow-y: auto;
+}
+/* line 274, sass/_product_listing.scss */
+.parellax-row-plp .bg-plp {
+  background: url(../images/parellax-plp/zinnia-flower-text.png) no-repeat 0 0;
+  height: 800px;
+  width: 1280px;
+  background-size: cover;
+}
+/* line 280, sass/_product_listing.scss */
+.parellax-row-plp .plp-content-bg {
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  transform: translate(-50%, -20%);
+}
+/* line 285, sass/_product_listing.scss */
+.parellax-row-plp .plp-content-bg img {
+  max-width: initial;
+}
+/* line 289, sass/_product_listing.scss */
+.parellax-row-plp::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+/* line 293, sass/_product_listing.scss */
+.search-page-css {
+  font-size: 2rem;
+  font-family: "EBGaramond", serif;
+}
+
+/* line 297, sass/_product_listing.scss */
+.search-page-head-padding {
+  padding: 2rem 0;
+}
+
+/* line 301, sass/_product_listing.scss */
+.search-result:last-child {
+  float: left !important;
+}
+
+/* line 1, sass/_outlet.scss */
+.outlet-product-margin {
+  margin-top: 1rem;
+}
+
+/* line 1, sass/_product_detail.scss */
+.product-detail {
+  color: #A5A5A5;
+}
+/* line 3, sass/_product_detail.scss */
+.product-detail .columns {
+  padding-left: 1.938rem;
+  padding-right: 1.938rem;
+}
+/* line 8, sass/_product_detail.scss */
+.product-detail .orbit-bullets li {
+  cursor: pointer;
+}
+/* line 12, sass/_product_detail.scss */
+.product-detail .padding-bottom-3em {
+  padding-bottom: 3rem;
+}
+/* line 15, sass/_product_detail.scss */
+.product-detail .pdp-headerPath {
+  font-size: 0.66rem;
+  font-weight: 800;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+/* line 20, sass/_product_detail.scss */
+.product-detail .pdp-headerPath span {
+  padding: 0 0.4rem;
+  cursor: pointer;
+}
+/* line 23, sass/_product_detail.scss */
+.product-detail .pdp-headerPath span a {
+  color: #A5A5A5;
+}
+/* line 25, sass/_product_detail.scss */
+.product-detail .pdp-headerPath span a:hover {
+  color: #A5A5A5;
+}
+/* line 30, sass/_product_detail.scss */
+.product-detail .pdp-headerPath .selected {
+  color: #666666;
+}
+/* line 35, sass/_product_detail.scss */
+.product-detail .product-description .highlightd-color, .product-detail .product-description .store-locator ul, .product-detail .product-description .product-share {
+  color: #222222;
+}
+/* line 38, sass/_product_detail.scss */
+.product-detail .product-description .product-name {
+  font-size: 2.5rem;
+  font-family: "EBGaramond";
+}
+/* line 42, sass/_product_detail.scss */
+.product-detail .product-description .padding-bottom-7 {
+  padding-bottom: 0.7rem;
+}
+/* line 45, sass/_product_detail.scss */
+.product-detail .product-description .padding-bottom-5, .product-detail .product-description .product-share {
+  padding-bottom: 0.5rem;
+}
+/* line 48, sass/_product_detail.scss */
+.product-detail .product-description .margin-top-minus-3 {
+  margin-top: -0.3rem;
+}
+/* line 51, sass/_product_detail.scss */
+.product-detail .product-description .padding-top-2 {
+  padding-top: 2rem;
+}
+/* line 54, sass/_product_detail.scss */
+.product-detail .product-description .product-number {
+  font-size: 0.6rem;
+  font-weight: 800;
+}
+/* line 58, sass/_product_detail.scss */
+.product-detail .product-description .price {
+  font-size: 2rem;
+  font-family: "EBGaramond";
+}
+/* line 62, sass/_product_detail.scss */
+.product-detail .product-description .desc-list {
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+/* line 66, sass/_product_detail.scss */
+.product-detail .product-description .read-review {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+  padding-left: 0.5rem;
+  font-family: "BrandonGrotesqueMedium";
+}
+/* line 73, sass/_product_detail.scss */
+.product-detail .product-description .product-color-choose {
+  padding-top: 2rem;
+}
+/* line 75, sass/_product_detail.scss */
+.product-detail .product-description .product-color-choose span {
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+/* line 79, sass/_product_detail.scss */
+.product-detail .product-description .product-color-choose div {
+  font-size: 0.66rem;
+  font-weight: 800;
+  padding-top: 0.5rem;
+}
+/* line 84, sass/_product_detail.scss */
+.product-detail .product-description .product-color-choose .color-selected {
+  border: 0.3rem solid #dc1065;
+  padding: 0.12rem;
+}
+/* line 89, sass/_product_detail.scss */
+.product-detail .product-description .purchase-buttons {
+  padding: 2rem 0;
+  border-bottom: 1px solid #DCDCDC;
+  width: 22rem;
+}
+/* line 93, sass/_product_detail.scss */
+.product-detail .product-description .purchase-buttons span {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+/* line 98, sass/_product_detail.scss */
+.product-detail .product-description .open-close-menu {
+  padding-right: 0.45rem;
+  vertical-align: bottom;
+}
+/* line 102, sass/_product_detail.scss */
+.product-detail .product-description .common-padding-width-class, .product-detail .product-description .store-locator {
+  border-bottom: 1px solid #DCDCDC;
+  padding: 1rem 0;
+  width: 22rem;
+}
+/* line 109, sass/_product_detail.scss */
+.product-detail .product-description .store-locator span {
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+/* line 113, sass/_product_detail.scss */
+.product-detail .product-description .store-locator ul {
+  font-size: 0.8rem;
+  padding-top: 1rem;
+}
+/* line 118, sass/_product_detail.scss */
+.product-detail .product-description .store-locator ul li span {
+  color: #A5A5A5;
+}
+/* line 124, sass/_product_detail.scss */
+.product-detail .product-description .product-share {
+  font-size: 1rem;
+}
+/* line 129, sass/_product_detail.scss */
+.product-detail .product-description .font-brandon {
+  font-family: "BrandonGrotesqueMedium";
+  font-size: 0.75rem !important;
+  font-weight: normal !important;
+}
+/* line 136, sass/_product_detail.scss */
+.product-detail .product-display .text-center, .product-detail .product-display .product-items {
+  text-align: center;
+}
+/* line 141, sass/_product_detail.scss */
+.product-detail .product-display .product-items span {
+  padding: 0 0.5rem;
+  cursor: pointer;
+}
+/* line 144, sass/_product_detail.scss */
+.product-detail .product-display .product-items span img {
+  border: 1px solid #DCDCDC;
+}
+/* line 148, sass/_product_detail.scss */
+.product-detail .product-display .product-items .selected {
+  border: 1px solid #3a3845;
+}
+/* line 153, sass/_product_detail.scss */
+.product-detail .footer-color {
+  color: #3a3845;
+  padding-bottom: 3rem;
+}
+/* line 156, sass/_product_detail.scss */
+.product-detail .footer-color .product-name {
+  font-size: 1rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.5rem;
+}
+/* line 161, sass/_product_detail.scss */
+.product-detail .footer-color .price {
+  font-weight: 800;
+}
+/* line 165, sass/_product_detail.scss */
+.product-detail .complete-look {
+  font-size: 2.2rem;
+  padding-bottom: 1.5rem;
+}
+/* line 169, sass/_product_detail.scss */
+.product-detail .zoom {
+  display: inline-block;
+  position: relative;
+}
+/* line 173, sass/_product_detail.scss */
+.product-detail .zoom img {
+  display: block;
+}
+/* line 176, sass/_product_detail.scss */
+.product-detail .zoom img::selection {
+  background-color: transparent;
+}
+/* line 177, sass/_product_detail.scss */
+.product-detail .heightAccordian {
+  height: 7rem;
+  overflow: hidden;
+  -webkit-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+}
