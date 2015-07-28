@@ -4,3 +4,5 @@ bower_components/
 npm-debug.log
 app/css/.sass-cache/
 app/css/main.css
+dist/
+.tmp/
