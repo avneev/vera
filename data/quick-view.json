@@ -1,0 +1,247 @@
+[
+    {
+        "id": 0,
+        "product_name": "EMMA SATCHEL",
+        "image": "images/plp/bag_a.jpg",
+        "product_color": "TAUPE",
+        "sku": 14342214,
+        "price": "$258",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": true,
+        "ad_spacing":6,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            }
+        ],
+        "active":false,
+        "arrPos":7.5,
+        "imgList": [
+            {
+                "id": 0,
+                "name": "taupe",
+                "src":"images/plp/thumb_1.jpg"
+            },
+            {
+                "id": 1,
+                "name": "black",
+                "src":"images/plp/thumb_2.jpg"
+            },
+            {
+                "id": 2,
+                "name": "orange",
+                "src":"images/plp/thumb_3.jpg"
+            }
+        ],
+        "plpImgList": [
+            {
+                "id": 0,
+                "src": "images/plp/bag_a.jpg"
+            },
+            {
+                "id": 1,
+                "src": "images/plp/bag_b.jpg"
+            },
+            {
+                "id": 2,
+                "src": "images/plp/bag_c.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "product_name": "SLIM & TRIM HIPSTER",
+        "image": "images/plp/p_img2.jpg",
+        "product_color": "LEOPARD SPOTS",
+        "sku": 14342214,
+        "price": "$218",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": true,
+        "ad_spacing":6,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            }
+        ],
+        "active":false,
+        "arrPos":28,
+        "imgList": [
+            {
+                "id": 0,
+                "name": "taupe",
+                "src":"images/plp/thumb_1.jpg"
+            },
+            {
+                "id": 1,
+                "name": "black",
+                "src":"images/plp/thumb_2.jpg"
+            },
+            {
+                "id": 2,
+                "name": "orange",
+                "src":"images/plp/thumb_3.jpg"
+            }
+        ],
+        "plpImgList": [
+            {
+                "id": 0,
+                "src":"images/plp/p_img2.jpg"
+            },
+            {
+                "id": 1,
+                "src":"images/plp/p_img2-a.jpg"
+            },
+            {
+                "id": 2,
+                "src":"images/plp/p_img2-b.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "product_name": "DRAWSTRING BACKPACK",
+        "image": "images/plp/p_img3.jpg",
+        "product_color": "GREEN",
+        "sku": 14342214,
+        "price": "$236",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": false,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            },
+            {
+                "id": 1,
+                "name": "blue"
+            },
+            {
+                "id": 2,
+                "name": "green"
+            },
+            {
+                "id": 3,
+                "name": "pink"
+            },
+            {
+                "id": 4,
+                "name": "black"
+            },
+            {
+                "id": 5,
+                "name": "grey"
+            }
+        ],
+        "active":false,
+        "arrPos":47.5,
+        "imgList": [
+            {
+                "id": 0,
+                "name": "taupe",
+                "src":"images/plp/thumb_1.jpg"
+            },
+            {
+                "id": 1,
+                "name": "black",
+                "src":"images/plp/thumb_2.jpg"
+            },
+            {
+                "id": 2,
+                "name": "orange",
+                "src":"images/plp/thumb_3.jpg"
+            }
+        ],
+        "plpImgList": [
+            {
+                "id": 0,
+                "src": "images/plp/p_img3.jpg"
+            },
+            {
+                "id": 1,
+                "src": "images/plp/p_img3_a.jpg"
+            },
+            {
+                "id": 2,
+                "src": "images/plp/p_img3_b.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "product_name": "ALL IN ONE CROSSBODY",
+        "image": "images/plp/p_img4.jpg",
+        "product_color": "ZIGGY ZAGS",
+        "sku": 14342214,
+        "price": "$280",
+        "product_rating":3,
+        "product_tag": "Sturdy and petite",
+        "is_ad": false,
+        "is_new": true,
+        "avalable_color": [
+            {
+                "id": 0,
+                "name": "red"
+            }
+        ],
+        "active":false,
+        "arrPos":66.5,
+        "imgList": [
+            {
+                "id": 0,
+                "name": "taupe",
+                "src":"images/plp/thumb_1.jpg"
+            },
+            {
+                "id": 1,
+                "name": "black",
+                "src":"images/plp/thumb_2.jpg"
+            },
+            {
+                "id": 2,
+                "name": "orange",
+                "src":"images/plp/thumb_3.jpg"
+            }
+        ],
+        "plpImgList": [
+            {
+                "id": 0,
+                "name": "taupe",
+                "src":"images/plp/p_img4.jpg"
+            },
+            {
+                "id": 1,
+                "name": "black",
+                "src":"images/plp/p_img4_a.jpg"
+            },
+            {
+                "id": 2,
+                "name": "orange",
+                "src":"images/plp/p_img4_b.jpg"
+            }
+        ]
+    }
+]
